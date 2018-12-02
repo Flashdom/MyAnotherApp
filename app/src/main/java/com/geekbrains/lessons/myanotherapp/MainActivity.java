@@ -3,6 +3,8 @@ package com.geekbrains.lessons.myanotherapp;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.Button;
+import android.widget.EditText;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity implements android.view.View.OnClickListener, View {
 
@@ -40,6 +42,8 @@ public class MainActivity extends AppCompatActivity implements android.view.View
     public void setHours(int value) {
         btnCounter3.setText("Количество = " + value);
     }
+
+
 
     @Override
     public void onClick(android.view.View view) {
